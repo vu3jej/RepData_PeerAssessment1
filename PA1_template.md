@@ -67,7 +67,7 @@ stepsMean <- mean(x = totalSteps$steps, na.rm = TRUE)
 stepsMedian <- median(x = totalSteps$steps, na.rm = TRUE)
 ```
 
-The mean of the total number of steps taken per day is 10766.19 & the median of the total number of steps taken per day is 10765.
+The **mean** of the total number of steps taken per day is **10766.19** & the **median** of the total number of steps taken per day is **10765**.
 
 ## What is the average daily activity pattern?
 
@@ -177,7 +177,7 @@ newStepsMean <- mean(x = newTotalSteps$steps, na.rm = TRUE)
 newStepsMedian <- median(x = newTotalSteps$steps, na.rm = TRUE)
 ```
 
-The mean of the total number of steps taken per day is 10784.92 & the median of the total number of steps taken per day is 10909.00.
+The **mean** of the total number of steps taken per day is **10784.92** & the **median** of the total number of steps taken per day is **10909.00**.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
