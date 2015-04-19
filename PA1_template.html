@@ -285,9 +285,9 @@ maxInterval &lt;- stepsData$interval[index]
 
 <p>Total number of missing values in the dataset is 2304</p>
 
-<h5>2.  Fill in all of the missing values in the dataset with the average 5-minute interval values &amp; 3. Create a new dataset with all the missing data filled in</h5>
+<h5>2.  Fill in all of the missing values in the dataset with the average 5-minute interval values and create a new dataset with all the missing data filled in</h5>
 
-<p>We use <code>ceiling</code> here to round off the average 5-minute interval values.</p>
+<p>We are replacing the NA values with the average 5-minute interval values. We use <code>ceiling</code> here to round off the average 5-minute interval values. The new dataset with the missing values filled in is named <code>completeStepsData</code></p>
 
 <pre><code class="r">## Get the steps column from the dataset
 stepCount &lt;- data.frame(stepsData[,steps])

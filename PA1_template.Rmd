@@ -91,9 +91,9 @@ countNA <- sum(is.na(stepsData[,steps]))
 
 Total number of missing values in the dataset is `r countNA`
 
-##### 2.  Fill in all of the missing values in the dataset with the average 5-minute interval values & 3. Create a new dataset with all the missing data filled in
+##### 2.  Fill in all of the missing values in the dataset with the average 5-minute interval values and create a new dataset with all the missing data filled in
 
-We use `ceiling` here to round off the average 5-minute interval values.
+We are replacing the NA values with the average 5-minute interval values. We use `ceiling` here to round off the average 5-minute interval values. The new dataset with the missing values filled in is named `completeStepsData`
 
 ```{r}
 ## Get the steps column from the dataset
