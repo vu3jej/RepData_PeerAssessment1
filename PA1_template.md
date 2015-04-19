@@ -95,7 +95,7 @@ index <- which.max(x = averageSteps$steps)
 maxInterval <- stepsData$interval[index]
 ```
 
-The interval with maximum number of steps is 835.
+The *interval with maximum number of steps* is **835**.
 
 ## Imputing missing values
 
@@ -106,7 +106,7 @@ The interval with maximum number of steps is 835.
 countNA <- sum(is.na(stepsData[,steps]))
 ```
 
-*Total number of missing values* in the dataset is **2304**
+*Total number of missing values* in the dataset is **2304**.
 
 ##### 2.  Fill in all of the missing values in the dataset with the average 5-minute interval values and create a new dataset with all the missing data filled in
 
